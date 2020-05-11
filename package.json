@@ -8,17 +8,17 @@
         "build": "webpack --mode production"
     },
     "author": "Maciej Wiatr",
-    "license": "ISC",
-    "dependencies": {
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
         "@babel/core": "^7.9.6",
+        "@babel/plugin-proposal-object-rest-spread": "^7.9.6",
         "@babel/polyfill": "^7.8.7",
         "@babel/preset-env": "^7.9.6",
         "babel-cli": "^6.26.0",
         "babel-loader": "^8.1.0",
         "webpack": "^4.43.0",
-        "webpack-cli": "^3.3.11"
-    },
-    "devDependencies": {
+        "webpack-cli": "^3.3.11",
         "webpack-dev-server": "^3.11.0"
     }
 }
