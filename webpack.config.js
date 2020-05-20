@@ -3,7 +3,7 @@ const path = require("path");
 module.exports = {
     entry: ["@babel/polyfill", "./src/index.js"],
     output: {
-        path: path.resolve(__dirname, "public/scripts"),
+        path: path.resolve(__dirname, "dist/scripts"),
         filename: "bundle.js",
     },
     module: {
@@ -22,7 +22,7 @@ module.exports = {
         ],
     },
     devServer: {
-        contentBase: path.resolve(__dirname, "public"),
+        contentBase: path.resolve(__dirname, "dist"),
         watchContentBase: true,
         publicPath: "/scripts/",
     },
